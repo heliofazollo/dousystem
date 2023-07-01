@@ -12,7 +12,7 @@
                 </a>
             </li>
 
-            <li>
+            <li class="d-none">
                 <a href="javascript: void(0);">
                     <i data-feather="globe"></i>
                     <span> DOU NACIONAL </span>
@@ -25,11 +25,11 @@
                     <li>
                         <a href="{{route('advanced.index')}}">Consulta Detalhada</a>
                     </li>
-                   
+
                 </ul>
             </li>
 
-            <li>
+            <li class="d-none">
                 <a href="javascript: void(0);">
                     <i data-feather="map"></i>
                     <span> DOU DF </span>
@@ -42,12 +42,12 @@
                     <li>
                         <a href="{{route('advanced.index')}}">Consulta Detalhada</a>
                     </li>
-                   
+
                 </ul>
             </li>
 
-           
-            <li>
+
+            <li class="d-none">
                 <a href="javascript: void(0);">
                     <i data-feather="briefcase"></i>
                     <span>DOU TRABALHO </span>
@@ -60,7 +60,7 @@
                     <li>
                         <a href="{{route('advanced.index')}}">Consulta Detalhada</a>
                     </li>
-                   
+
                 </ul>
             </li>
             <li>
@@ -76,10 +76,10 @@
                     <li>
                         <a href="{{route('advanced.index')}}">Consulta Detalhada</a>
                     </li>
-                   
+
                 </ul>
             </li>
-            <li>
+            <li class="d-none">
                 <a href="javascript: void(0);">
                     <i data-feather="pen-tool"></i>
                     <span>JUSTIÇA ESTADUAL </span>
@@ -92,7 +92,7 @@
                     <li>
                         <a href="{{route('advanced.index')}}">Consulta Detalhada</a>
                     </li>
-                   
+
                 </ul>
             </li>
 <li>
@@ -106,7 +106,7 @@
         <li>
             <a href="layouts-horizontal.html">LISTAGEM</a>
         </li>
-       
+
     </ul>
 </li>
 
@@ -122,11 +122,11 @@
         <li>
             <a href="{{route('users.index')}}">Novo Usuário</a>
         </li>
-       
+
                 <li>
                     <a href="{{route('roles.index')}}">Permissões</a>
                 </li>
-        
+
     </ul>
 </li>
 
